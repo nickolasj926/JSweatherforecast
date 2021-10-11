@@ -1,0 +1,19 @@
+//Today's temperature in Kelvin.
+const kelvin = 0;
+
+//Today's temperature in Celsius.
+const celsius = kelvin - 273;
+
+//Today's temperature in Fahrenheit.
+let fahrenheit = celsius * (9/5) + 32;
+
+//The floor method is employed to round down to a whole number.
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+let newton = celsius * (33/100);
+
+newton = Math.floor(newton);
+
+console.log(`The temperature is ${newton} degrees Newton.`);
